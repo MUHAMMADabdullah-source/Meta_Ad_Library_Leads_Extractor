@@ -1,0 +1,21 @@
+# Facebook login session (contains cookies, NEVER commit)
+fb_profile/
+
+# Scraped data (contains personal data such as emails)
+leads.json
+advertisers.json
+*_unchecked.json
+*.json.tmp
+perfumes.json
+
+# Debug output
+debug_*.html
+debug_*.txt
+debug_*.png
+debug_payload.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
